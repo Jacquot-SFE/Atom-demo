@@ -116,6 +116,15 @@ VSCode is conceptually (and operationally) very similar to Atom.
 
 Main editor is the Monaco component, borrowed from VisualStudio.  Supports auto-completion, symbol navigation, etc.
 
-It has Git integration that's similar to Atom's, only the status items are on the lower left corner.
+It has Git integration that's similar to Atom's.
 
-...
+The file browser adds an `M` icon next to modified files.
+
+The reovision control menu is invoked with the `branch` icon in the left toolbar.  Once you're there, it runs about like Atom.
+* Branch and push/pull are on status bar, but on lower _left_ corner.
+* Click a file to see the diffs.
+* Click `+` to stage changes.
+* Enter a message and click the check mark to commit.
+* Click 
+
+(It apparently doesn't yet offer the piecemeal staging, one-key jump back to the editor, or independent push & pull operations.)
