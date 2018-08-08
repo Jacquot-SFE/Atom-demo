@@ -116,6 +116,8 @@ VSCode is conceptually (and operationally) very similar to Atom.
 
 Main editor is the Monaco component, borrowed from VisualStudio.  Supports auto-completion, symbol navigation, etc.
 
+a change...
+
 It has Git integration that's similar to Atom's.
 
 The file browser adds an `M` icon next to modified files.
