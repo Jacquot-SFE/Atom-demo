@@ -98,7 +98,7 @@ It easily supports two operations:
 * Checking out a specific branch - simply pick it from the list.
 * Creating a new branch - don't forget to push it upstream.
 
-It doesn't support merging.
+It doesn't support merging or history...intrinsically.  There are plugins for it...maybe a topic for another day.
 
 
 
@@ -111,8 +111,8 @@ No more indie credibility for using Atom.  It's part of the 800 pound gorilla.
 VSCode is conceptually (and operationally) very similar to Atom.    
 
 * Cross platform, tabbed editor with support for many languages.
-* Also built on Electron!
-* Extensible with JavaScript/TypeScript.
+* Also built on Electron
+* Also extensible with JavaScript/TypeScript.
 
 Main editor is the Monaco component, borrowed from VisualStudio.  Supports auto-completion, symbol navigation, etc.
 
