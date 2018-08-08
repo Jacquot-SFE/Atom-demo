@@ -125,6 +125,6 @@ The reovision control menu is invoked with the `branch` icon in the left toolbar
 * Click a file to see the diffs.
 * Click `+` to stage changes.
 * Enter a message and click the check mark to commit.
-* Click 
+* Click
 
 (It apparently doesn't yet offer the piecemeal staging, one-key jump back to the editor, or independent push & pull operations.)
