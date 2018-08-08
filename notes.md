@@ -16,8 +16,8 @@ Built on Electron, using Chromium and Node.
 
 ### Advantages
 
-* Cross platform
-* Highlight modes for many programming languages
+* Cross platform.
+* Highlight modes for many programming languages.
 * Expandable using modules.
     * Some are "core", bundled with the editor, other are community contributed.
     * That's how the language support is built.
@@ -48,12 +48,12 @@ _Open project by opening top directory._
 
 _**The secret for Git integration**: open the top folder of the repo.  If Atom finds the .git there, it'll use it._
 
-It also assumes you've got git command line git configured correctly - if auth is broken, Atom won't magically fix it.
+It also assumes you've got command line git configured correctly - if auth is broken, Atom won't magically fix it.
 
-You'll know that Git is initialized, if you get 3 items in the lower right status bar:
+You'll know that Git is initialized if you get 3 items in the lower right status bar:
 * The branch icon & branch name.
-* The push & pull option.
-* The changed files status indicator.
+* The push/pull/fetch option.
+* The changed (+/-) files indicator.
 
 _Make some changes._
 
@@ -74,13 +74,17 @@ The typical workflow will run down this dialog, from top to bottom.
 
 Click an unstaged file, it shows the deltas.
 
+This also shows new files.  
+
+(If you're working in an environment that creates intermediate files, you can configure a .gitignore file to keep git from flagging them as new or changed.)
+
 From here, you can stage the whole file,  selectively stage individual changes or lines, or even delete the delta altogether.
 
 If you need bigger context, pressing lowercase `o` will take you to the relevant line in the source.
 
 Once staged, you can click on the staged file, and get a similar delta view, where changes can be unstaged.
 
-To commmit, enter a commit message, press to commmit button.
+To commmit, enter a commit message, press the commmit button.
 
 Finally, to push upstream (or pull from the remote), press the menu bar item with the up & down arrows.
 
@@ -100,7 +104,7 @@ It doesn't support merging.
 
 ### Fast forward to June, 2018
 
--> MSFT to acquire GitHub <-
+** MSFT to acquire GitHub **
 
 No more indie credibility for using Atom.  It's part of the 800 pound gorilla.
 
